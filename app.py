@@ -7,7 +7,7 @@ def home_page():
 
 @app.route("/greeting")
 def display():
-    return render_template("index.html")
+    return render_template("index.html", title="I am")
 
 if __name__ == "__main__":
     app.run()

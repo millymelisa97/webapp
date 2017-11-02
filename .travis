@@ -1,0 +1,23 @@
+cd venv/scripts && activate && cd ../..
+source venv/scripts/activate
+
+
+
+C:\Users\milly\Desktop\testapp>virtualenv venv
+Using base prefix 'c:\\users\\milly\\appdata\\local\\programs\\python\\python36-32'
+New python executable in C:\Users\milly\Desktop\testapp\venv\Scripts\python.exe
+Installing setuptools, pip, wheel...done.
+
+C:\Users\milly\Desktop\testapp>cd venv/scrpits
+The system cannot find the path specified.
+
+C:\Users\milly\Desktop\testapp>cd venv/scripts
+
+C:\Users\milly\Desktop\testapp\venv\Scripts>activate
+
+(venv) C:\Users\milly\Desktop\testapp\venv\Scripts>cd ../..
+
+(venv) C:\Users\milly\Desktop\testapp>deactivate
+C:\Users\milly\Desktop\testapp>cd venv/scripts && activate && cd ../..
+
+(venv) C:\Users\milly\Desktop\testapp>
